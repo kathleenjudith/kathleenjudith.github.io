@@ -4,20 +4,21 @@ body {
 }
 
 .wrapper {
-  width: 1200px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .header {
   height: 70px;
+  width: 80%
 }
 
 .header-inner {
   background-color: white;
   position: fixed;
   margin-top: 0px;
-  width: 1200px;
+  width: 80%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -28,7 +29,7 @@ body {
 }
 
 .navigation span {
-  float:right;
+  float: right;
   font-size: 15px;
 }
 
@@ -42,13 +43,15 @@ a {
 }
 
 .main {
-  width: 1200px;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
-.image {
-  width: 1200px;
+img {
+  width: 100%;
+  height: auto;
 }
 
 p {
